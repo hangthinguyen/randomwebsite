@@ -1,0 +1,66 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-image: url("file:///Users/hang/projects/randomwebsite/1.jpeg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    height: 100vh;
+}
+
+.body-container {
+    width: 90%;
+    margin: auto;
+}
+.top-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.left-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.right-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.logo {
+    color: #ff7200;
+    font-size: 20px;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+
+.menu {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.menu a {
+    color: #fff;
+    text-decoration: none;
+    padding: 30px;
+}
+
+section .search {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.search input{
+}
