@@ -13,25 +13,13 @@ body {
 .body-container {
     width: 90%;
     margin: auto;
+    height: 100vh;
 }
 .top-container {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-}
-
-.left-nav {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.right-nav {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
 }
 
 .logo {
@@ -53,7 +41,7 @@ ul {
 .menu a {
     color: #fff;
     text-decoration: none;
-    padding: 30px;
+    padding: 20px;
 }
 
 section .search {
@@ -63,4 +51,77 @@ section .search {
 }
 
 .search input{
+    width: 200px;
+    border: 1px solid #ff7200;
+    height: 30px;
+    border-radius: 4px;
+    background: transparent;
+    color: #fff;
+}
+
+::placeholder {
+    font-family: "Times New Roman";
+    color: #fff;
+    font-weight: 500;
+}
+
+.button-1 {
+    color: #fff;
+    background-color: #ff7200;
+    border: 1px solid #ff7200;
+    border-radius: 4px;
+    height: 30px;
+}
+.button-1 :hover {
+    color: #000;
+}
+.bottom-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    flex: 2;
+}
+
+.login-box {
+    display: flex;
+    flex: 1;
+}
+
+
+.content h1 {
+    font-family: "Times New Roman";
+    font-size: 50px;
+}
+
+.content h1 span {
+    color: #ff7200;
+}
+
+.login-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 266.69px;
+    height: 380px;
+    background: linear-gradient(to top, rgba(0,0,0,0.8)50%,rgba(0,0,0,0.8)50%);
+    border-radius: 10px;
+
+}
+
+.container-box {
+    width: 600px;
 }
